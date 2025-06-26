@@ -49,7 +49,7 @@ document.getElementById("btn").addEventListener('click', function(){
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				result = result + 10;
-			output.innerText = `Result: ${result}`;
+			output.innerText = `Final Result: ${result}`;
 			resolve(result);
 			}, 1000)
 			
